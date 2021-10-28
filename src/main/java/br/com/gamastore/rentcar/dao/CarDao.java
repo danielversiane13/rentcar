@@ -21,4 +21,5 @@ public class CarDao {
 
 		return em.createQuery(jpql, Car.class).getResultList();
 	}
+
 }
